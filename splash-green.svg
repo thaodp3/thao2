@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="180"
+  height="200"
+  viewBox="0 0 180 200"
+  role="img"
+  aria-label="Green splash decoration"
+>
+  <defs>
+    <linearGradient id="splashGreenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#C8E6C9" />
+    </linearGradient>
+    <radialGradient id="splashGreenShine" cx="35%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <path
+    d="M62,116 C25,78 44,30 92,30 C116,30 128,18 145,30 C168,45 179,75 161,104 C148,125 170,152 145,170 C117,190 74,179 57,154 C42,131 80,136 62,116 Z"
+    fill="url(#splashGreenGrad)"
+  />
+
+  <path
+    d="M83,60 C78,75 86,90 103,92 C120,94 129,78 121,66 C112,52 92,46 83,60 Z"
+    fill="url(#splashGreenShine)"
+    opacity="0.95"
+  />
+</svg>
+

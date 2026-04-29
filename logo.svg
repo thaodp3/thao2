@@ -1,0 +1,66 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="320"
+  height="86"
+  viewBox="0 0 320 86"
+  role="img"
+  aria-label="BuzzWords logo"
+>
+  <defs>
+    <linearGradient id="logoTextGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF9800" />
+      <stop offset="60%" stop-color="#FFB74D" />
+      <stop offset="100%" stop-color="#4CAF50" />
+    </linearGradient>
+    <radialGradient id="logoShine" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55" />
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="sproutGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8BC34A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sprout / leaf icon -->
+  <g transform="translate(12,6)">
+    <path
+      d="M26 14 C18 10 12 16 12 26 C18 25 23 23 26 14 Z"
+      fill="url(#sproutGrad)"
+    />
+    <path
+      d="M18 28 C22 44 18 58 8 70 C20 66 32 54 30 40 C29 33 25 28 18 28 Z"
+      fill="url(#sproutGrad)"
+      opacity="0.96"
+    />
+    <path
+      d="M20 30 C24 48 26 56 26 70"
+      stroke="#1B2B1C"
+      stroke-opacity="0.14"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- Logo text -->
+  <text
+    x="62"
+    y="62"
+    font-family="Fredoka One, Nunito, system-ui, sans-serif"
+    font-size="54"
+    font-weight="400"
+    fill="url(#logoTextGrad)"
+  >
+    BuzzWords
+  </text>
+  <path
+    d="M72 22 C130 10, 205 12, 260 26"
+    fill="none"
+    stroke="url(#logoShine)"
+    stroke-width="12"
+    stroke-linecap="round"
+    opacity="0.35"
+  />
+</svg>
+
